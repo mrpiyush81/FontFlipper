@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 5s linear;
   }
 }
 
@@ -35,4 +35,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container1{
+
+ border-width: 2px;
+ border-style: solid;
+ /* color: #61dafb; */
+
+  
+  margin: 15px 0px;
+  padding: 15px 15px;
+  border-radius: 10px ;
+  box-shadow: 100px;
+  
+}
+.btn {
+  margin: 0px 10px;
+}
+#mybox::placeholder{
+ color:rgb(255, 62, 62)
+}
+.accordion-button::after {
+
+  filter: invert(1);
 }
